@@ -1,0 +1,10 @@
+server.port=8080
+
+# Config Database
+spring.datasource.url=jdbc:postgresql://localhost:5432/mistral_db
+spring.datasource.username=postgres
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
