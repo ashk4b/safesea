@@ -24,6 +24,7 @@ public class WeatherData {
     private Double windDirection;
     private Double lightIntensity;
     private Double rainLevel;
+    private Double uvIntensity;
     private Double mistralScore;
     private Boolean isTerrasseOk;
     private String deviceEui;
